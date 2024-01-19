@@ -1,0 +1,140 @@
+body{
+    margin: auto 0;
+}
+header{
+    background-image: url(./images/one.jpg);
+    background-size: cover;
+    color:#fff;
+}
+.container{
+    max-width:1100px;
+    text-align: center;
+    margin: 0 auto;
+}
+header .container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    flex: 0 0 100%;
+    padding-top: 10px;
+}
+.top-menu{
+    display: flex;
+    justify-content: space-between;
+}
+#logo{
+    font-size: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.navbar a{
+    padding: 10px;
+    color: #fff;
+    flex: 0 0 100%;
+}
+.header_content{
+   display: flex;
+   flex-direction: column;
+   gap: 25px;
+   align-items: center;
+   justify-content: center;
+   height: 500px;
+}
+h1,h3,p{
+    margin: 0px;
+}
+.header_content .blue-btn{
+    display: inline-block;
+}
+
+#img-one{
+    background-image: url(./images/four.jpg);
+    height: 362px;
+    background-size: cover;
+    width:30%;
+}
+#img-two{
+    background-image: url(./images/two.jpg);
+    height: 362px;
+    background-size: cover;
+    width:70%;
+}
+#img-three{
+    background-image: url(./images/three.jpg);
+    height: 362px;
+    background-size: cover;
+    width:70%;
+}
+#img-four{
+    background-image: url(./images/five.jpg);
+    height: 362px;
+    background-size: cover;
+    width:30%;
+}
+.images-div{
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+    padding-bottom: 5px;
+}
+
+
+.blue-btn{
+    background-color: #375185;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 3px;
+    box-shadow: 1px 1px 3px #375185;
+    font-size: 12px;
+}
+.hr{
+    width: 180px;
+    border: 1px solid rgb(31, 31, 184);
+    margin: 50px auto 30px auto;
+}
+.content{
+    width: 762px;
+    margin: 50px auto;
+    padding: 50px 0px 50px 0px;
+}
+.grey{
+    background-color: gainsboro;
+}
+#tour-header{
+    padding-top: 10px;
+    margin: 50px auto;
+}
+.tour-info{
+    display: flex;
+    justify-content:center;
+    gap: 20px;
+}
+.tour-div{
+    width:365px;
+    padding: 25px;
+}
+
+#logo1{
+    font-size: 50px;
+}
+
+.test{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding:30px;
+}
+footer{
+    background-color: #526D82;
+}
+.outer-div{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    color: #fff;
+    font-family:monospace;
+    align-items: center;
+}
+#icons{
+    font-size: 20px;
+
+}
