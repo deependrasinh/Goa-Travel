@@ -41,20 +41,19 @@ header h3{
     flex: 0 0 100%;
     font-size: 18px;
 }
-a{
-    text-decoration: none;
-}
+
 .header_content{
    display: flex;
    flex-direction: column;
    gap: 25px;
    align-items: center;
    justify-content: center;
-   height: 650px;
+   height: 800px;
 }
-h1,h3,p{
+h1,h3,p,a{
     margin: 0;
     color: #fff;
+    text-decoration: none;
 }
 h1{
    font-size: 40px; 
